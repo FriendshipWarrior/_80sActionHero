@@ -36,9 +36,9 @@ public class CreateCharacter : MonoBehaviour {
                 newPlayer.PlayerClass = new BaseMageClass();
             }
             newPlayer.PlayerLevel = 0;
-            newPlayer.Stamina = newPlayer.PlayerClass.Stamina;
-            newPlayer.Strength = newPlayer.PlayerClass.Strength;
-            newPlayer.Intelligence = newPlayer.PlayerClass.Intelligence;
+            //newPlayer.Stamina = newPlayer.PlayerClass.Stamina;
+            //newPlayer.Strength = newPlayer.PlayerClass.Strength;
+            //newPlayer.Intelligence = newPlayer.PlayerClass.Intelligence;
             newPlayer.PlayerName = playerName;
             StoreNewPlayerInfo();
             SaveInformation.SaveAllInformation();
@@ -54,8 +54,8 @@ public class CreateCharacter : MonoBehaviour {
     {
         GameInformation.PlayerName = newPlayer.PlayerName;
         GameInformation.PlayerLevel = newPlayer.PlayerLevel;
-        GameInformation.Stamina = newPlayer.Stamina;
-        GameInformation.Strength = newPlayer.Strength;
-        GameInformation.Intelligence = newPlayer.Intelligence;
+        //GameInformation.Stamina = newPlayer.Stamina;
+        //GameInformation.Strength = newPlayer.Strength;
+        //GameInformation.Intelligence = newPlayer.Intelligence;
     }
 }
