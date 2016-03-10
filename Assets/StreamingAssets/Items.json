@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "title": "Sword",
+	"stats": {
+		"power":1,
+		"defense":1
+	},
+	"description":"A standard steel sword.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":2,
+	"slug": "sword"
+  },
+  {
+    "id": 1,
+    "title": "Health",
+	"stats": {
+		"power":0,
+		"defense":0
+	},
+	"description":"First aid kit that restores 50 health.",
+	"stackable": true,
+	"consumable" : true,
+	"rarity":1,
+	"slug": "health"
+  },
+  {
+    "id": 2,
+    "title": "Shotgun",
+	"stats": {
+		"power":5,
+		"defense":0
+	},
+	"description":"This is my boomstick.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":2,
+	"slug": "shotgun"
+  },
+  {
+    "id": 100,
+    "title": "Conan VHS",
+	"stats": {
+		"power":0,
+		"defense":0
+	},
+	"description":"A VHS tape of the movie Conan The Barbarian.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":5,
+	"slug": "vhs"
+  },
+  {
+    "id": 200,
+    "title": "Predator VHS",
+	"stats": {
+		"power":0,
+		"defense":0
+	},
+	"description":"A VHS tape of the movie Predator.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":5,
+	"slug": "vhs"
+  },
+  {
+    "id": 300,
+    "title": "Terminator VHS",
+	"stats": {
+		"power":0,
+		"defense":0
+	},
+	"description":"A VHS tape of the movie Terminatory.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":5,
+	"slug": "vhs"
+  }
+]
