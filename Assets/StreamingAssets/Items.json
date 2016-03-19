@@ -2,6 +2,7 @@
   {
     "id": 0,
     "title": "Sword",
+	"type": "Weapon",
 	"stats": {
 		"power":1,
 		"defense":1
@@ -15,6 +16,7 @@
   {
     "id": 1,
     "title": "Health",
+	"type": "Consumable",
 	"stats": {
 		"power":0,
 		"defense":0
@@ -28,6 +30,7 @@
   {
     "id": 2,
     "title": "Shotgun",
+	"type": "Weapon",
 	"stats": {
 		"power":5,
 		"defense":0
@@ -41,6 +44,7 @@
   {
     "id": 100,
     "title": "Conan VHS",
+	"type": "Key",
 	"stats": {
 		"power":0,
 		"defense":0
@@ -54,6 +58,7 @@
   {
     "id": 200,
     "title": "Predator VHS",
+	"type": "Key",
 	"stats": {
 		"power":0,
 		"defense":0
@@ -67,6 +72,7 @@
   {
     "id": 300,
     "title": "Terminator VHS",
+	"type": "Key",
 	"stats": {
 		"power":0,
 		"defense":0

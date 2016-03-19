@@ -35,7 +35,7 @@ public class Inventory : MonoBehaviour {
         AddItem(1);
     }
 
-    public void AddItem(int id)
+    public bool AddItem(int id)
     {
         Item itemToAdd = database.FetchItemByID(id);
         if (itemToAdd.Stackable && ItemCheck(itemToAdd) != -1)
@@ -47,9 +47,10 @@ public class Inventory : MonoBehaviour {
                     ItemData data = slots[i].transform.GetChild(0).GetComponent<ItemData>();
                     data.amount++;
                     data.transform.GetChild(0).GetComponent<Text>().text = data.amount.ToString();
-                    break;
+                    return true;
                 }
             }
+            return false;
         }
         else {
             for (int i = 0; i < items.Count; i++)
@@ -62,12 +63,14 @@ public class Inventory : MonoBehaviour {
                     itemObj.GetComponent<ItemData>().amount = 1;
                     itemObj.GetComponent<ItemData>().slot = i;
                     itemObj.transform.SetParent(slots[i].transform);
-                    itemObj.transform.position = Vector2.zero;
+                    itemObj.transform.position = slots[i].transform.position;
+                    //itemObj.transform.position = Vector2.zero;
                     itemObj.GetComponent<Image>().sprite = itemToAdd.Sprite;
                     itemObj.name = itemToAdd.Title;
-                    break;
+                    return true;
                 }
             }
+            return false;
         }
     }
     /*
@@ -83,10 +86,10 @@ public class Inventory : MonoBehaviour {
         return false;
     }
     */
-    public void RemoveItem(int id)
+    private int RemoveAtPos(int pos, Item itemToRemove)
     {
-        Item itemToRemove = database.FetchItemByID(id);
-        int pos = ItemCheck(itemToRemove);
+        //Item itemToRemove = database.FetchItemByID(id);
+        //int pos = ItemCheck(itemToRemove);
         if (pos != -1)
         {
             if (items[pos].Stackable)
@@ -98,6 +101,7 @@ public class Inventory : MonoBehaviour {
                     items[pos] = new Item();
                     Transform t = slots[pos].transform.GetChild(0);
                     Destroy(t.gameObject);
+                    return 0;
 
                 }
                 else
@@ -106,17 +110,48 @@ public class Inventory : MonoBehaviour {
                         data.transform.GetComponentInChildren<Text>().text = "";
                     else
                         data.transform.GetComponentInChildren<Text>().text = data.amount.ToString();
+                    return data.amount;
                 }
-                return;
             }
             else
             {
                 items[pos] = new Item();
                 Transform t = slots[pos].transform.GetChild(0);
                 Destroy(t.gameObject);
-                return;
+                return 0;
             }
         }
+        return -1;
+    }
+
+    public int RemoveItem(int id)
+    {
+        Item itemToRemove = database.FetchItemByID(id);
+        int pos = ItemCheck(itemToRemove);
+        return (RemoveAtPos(pos, itemToRemove));
+    }
+
+    public int RemoveUniqueItem(int uniqueId, int itemId)
+    {
+        Item itemToRemove = database.FetchItemByID(itemId);
+        int pos = UniqueItemCheck(uniqueId);
+        return (RemoveAtPos(pos, itemToRemove));
+    }
+
+    int UniqueItemCheck(int id)
+    {
+        GameObject invSlots = GameObject.Find("Slot Panel");
+        foreach (Transform child in invSlots.transform)
+        {
+            try
+            {
+                if (child.transform.GetChild(0).GetInstanceID() == id)
+                    return child.GetComponent<Slot>().id;
+            }
+            catch
+            { }
+        }
+        return -1;
     }
 
     int ItemCheck(Item item)

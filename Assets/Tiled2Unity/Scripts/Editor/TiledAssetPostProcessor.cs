@@ -15,7 +15,7 @@ namespace Tiled2Unity
         private static bool UseThisImporter(string assetPath)
         {
             // Certain file types are ignored by this asset post processor (i.e. scripts)
-            string[] ignoreThese = { ".cs", ".txt" };
+            string[] ignoreThese = { ".cs", ".txt", };
             if (ignoreThese.Any(ext => String.Compare(ext, Path.GetExtension(assetPath), true) == 0))
             {
                 return false;

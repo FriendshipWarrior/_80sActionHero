@@ -32,6 +32,7 @@ public class ItemDatabase : MonoBehaviour {
         {
             database.Add(new Item((int)itemData[i]["id"],
                 itemData[i]["title"].ToString(),
+                itemData[i]["type"].ToString(),
                 (int)itemData[i]["stats"]["power"],
                 (int)itemData[i]["stats"]["defense"],
                 itemData[i]["description"].ToString(),
@@ -47,6 +48,7 @@ public class Item
 {
     public int ID { get; set; }
     public string Title { get; set; }
+    public string Type { get; set; }
     public int Power { get; set; }
     public int Defense { get; set; }
     public string Description { get; set; }
@@ -56,10 +58,11 @@ public class Item
     public string Slug { get; set; }
     public Sprite Sprite { get; set; }
 
-    public Item(int id, string title, int power, int defense, string description, bool stackable, bool consumable, int rarity, string slug)
+    public Item(int id, string title, string type, int power, int defense, string description, bool stackable, bool consumable, int rarity, string slug)
     {
         this.ID = id;
         this.Title = title;
+        this.Type = type;
         this.Power = power;
         this.Defense = defense;
         this.Description = description;

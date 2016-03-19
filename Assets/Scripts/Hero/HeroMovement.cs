@@ -11,7 +11,7 @@ public class HeroMovement : MonoBehaviour {
 	void Start () {
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-	}
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {

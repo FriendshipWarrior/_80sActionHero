@@ -8,6 +8,7 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public int amount;
     public int slot;
 
+    //private CharacterPanel characterPanel;
     private Inventory inv;
     private ToolTip tooltip;
     private Vector2 offset;
@@ -15,6 +16,7 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     void Start()
     {
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
+        //characterPanel = GameObject.Find("Character Panel").GetComponent<CharacterPanel>();
         tooltip = inv.GetComponent<ToolTip>();
     }
 
@@ -58,6 +60,13 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         if (eventData.pointerId == -2)
         {
+            if (item.Type == "Weapon" || item.Type == "Armor")
+            {
+                int uniqueId = GameObject.Find("Slot Panel").transform.GetChild(slot).transform.GetChild(0).GetInstanceID();
+
+                //EquipItem(item, uniqueId);
+                tooltip.Deactivate();
+            }
             if (item.Consumable)
             {
                 switch (item.ID)
