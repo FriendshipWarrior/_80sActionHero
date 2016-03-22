@@ -7,10 +7,21 @@ public class CameraFollow : MonoBehaviour {
     public float cam_speed = 0.1f;
     Camera mycam;
 
+    private static bool camExists;
+
 	// Use this for initialization
 	void Start () {
         mycam = GetComponent<Camera>();
-	}
+        if (!camExists)
+        {
+            camExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
