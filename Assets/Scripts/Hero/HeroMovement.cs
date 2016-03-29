@@ -7,12 +7,16 @@ public class HeroMovement : MonoBehaviour {
     Animator anim;
 
     public bool canMove;
+    public float moveSpeed;
     public float attackTime;
+    public string startPoint;
+    public float diagonalMoveModifier;
 
     private static bool heroExists;
     private bool isWalking;
     private bool isAttacking;
     private float attackTimeCounter;
+    private float currentMoveSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -51,17 +55,27 @@ public class HeroMovement : MonoBehaviour {
                 anim.SetBool("is_attacking", true);
             }
 
+            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
+            {
+                currentMoveSpeed = moveSpeed * diagonalMoveModifier;
+            }
+            else
+            {
+                currentMoveSpeed = moveSpeed;
+            }
+
             if (movement_vector != Vector2.zero && isWalking == true)
             {
                 anim.SetBool("is_walking", true);
                 anim.SetFloat("input_x", movement_vector.x);
                 anim.SetFloat("input_y", movement_vector.y);
             }
+            
             else
             {
                 anim.SetBool("is_walking", false);
             }
-            rbody.MovePosition(rbody.position + movement_vector * Time.deltaTime);
+            rbody.MovePosition(rbody.position + movement_vector * (currentMoveSpeed * Time.deltaTime));//Time.deltaTime);
         }
 
         if(attackTimeCounter >= 0)

@@ -9,13 +9,25 @@ public class Inventory : MonoBehaviour {
     ItemDatabase database;
     public GameObject inventorySlot;
     public GameObject inventoryItem;
-
-    private int slotAmount;
     public List<Item> items = new List<Item>();
     public List<GameObject> slots = new List<GameObject>();
+    public static bool invExists;
+
+
+    private int slotAmount;
 
     void Start()
     {
+        if (!invExists)
+        {
+            invExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         database = GetComponent<ItemDatabase>();
         slotAmount = 24;
         inventoryPanel = GameObject.Find("Inventory Panel");
@@ -27,7 +39,6 @@ public class Inventory : MonoBehaviour {
             slots[i].GetComponent<Slot>().id = i;
             slots[i].transform.SetParent(slotPanel.transform);
         }
-        AddItem(0);
         AddItem(1);
         AddItem(1);
         AddItem(1);

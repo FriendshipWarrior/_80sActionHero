@@ -5,7 +5,8 @@ public class PickupItem : MonoBehaviour
 {
 
     public int itemID;
-    public Inventory inv;
+
+    private Inventory inv;
 
     void Start()
     {

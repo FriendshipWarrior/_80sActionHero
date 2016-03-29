@@ -13,13 +13,25 @@ public class TextBoxManager : MonoBehaviour {
     public HeroMovement hero;
     public bool isActive;
     public bool stopHeroMovement;
+    public float typeSpeed;
+    public static bool tbmExists;
+
     private bool isTyping = false;
     private bool cancelTyping = false;
-    public float typeSpeed;
 
     // Use this for initialization
     void Start()
     {
+        if (!tbmExists)
+        {
+            tbmExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         hero = FindObjectOfType<HeroMovement>();
         if (textFile != null)
         {

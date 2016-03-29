@@ -72,15 +72,29 @@
   {
     "id": 300,
     "title": "Terminator VHS",
+    "type": "Key",
+    "stats": {
+      "power": 0,
+      "defense": 0
+    },
+    "description": "A VHS tape of the movie Terminatory.",
+    "stackable": false,
+    "consumable": false,
+    "rarity": 5,
+    "slug": "vhs"
+  },
+  {
+    "id": 1000,
+    "title": "Gem",
 	"type": "Key",
 	"stats": {
 		"power":0,
 		"defense":0
 	},
-	"description":"A VHS tape of the movie Terminatory.",
+	"description":"A large rare jewel.",
 	"stackable": false,
 	"consumable" : false,
 	"rarity":5,
-	"slug": "vhs"
+	"slug": "gem"
   }
 ]

@@ -5,6 +5,7 @@ using System;
 
 public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler {
     public Item item;
+    public HeroHealthManager hero;
     public int amount;
     public int slot;
 
@@ -16,6 +17,7 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     void Start()
     {
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
+        hero = GameObject.Find("Hero").GetComponent<HeroHealthManager>();
         //characterPanel = GameObject.Find("Character Panel").GetComponent<CharacterPanel>();
         tooltip = inv.GetComponent<ToolTip>();
     }
@@ -72,7 +74,7 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                 switch (item.ID)
                 {
                     case 1:
-                        //ToDo: addHealth(50)
+                        hero.heroCurrentHealth += 50;
                         break;
                 }
                 inv.RemoveItem(item.ID);
