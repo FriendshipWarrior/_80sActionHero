@@ -100,7 +100,10 @@ namespace QuestSystem
         public void CheckProgress()
         {
             if (currentAmount >= collectionAmount)
+            {
                 isComplete = true;
+                Debug.Log(isComplete);
+            }
             else
                 isComplete = false;
         }

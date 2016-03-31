@@ -1,0 +1,1924 @@
+fileFormatVersion: 2
+guid: 2b20b18974e68134797a728a9d009014
+timeCreated: 1459284646
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: People2_0
+    21300002: People2_1
+    21300004: People2_2
+    21300006: People2_3
+    21300008: People2_4
+    21300010: People2_5
+    21300012: People2_6
+    21300014: People2_7
+    21300016: People2_8
+    21300018: People2_9
+    21300020: People2_10
+    21300022: People2_11
+    21300024: People2_12
+    21300026: People2_13
+    21300028: People2_14
+    21300030: People2_15
+    21300032: People2_16
+    21300034: People2_17
+    21300036: People2_18
+    21300038: People2_19
+    21300040: People2_20
+    21300042: People2_21
+    21300044: People2_22
+    21300046: People2_23
+    21300048: People2_24
+    21300050: People2_25
+    21300052: People2_26
+    21300054: People2_27
+    21300056: People2_28
+    21300058: People2_29
+    21300060: People2_30
+    21300062: People2_31
+    21300064: People2_32
+    21300066: People2_33
+    21300068: People2_34
+    21300070: People2_35
+    21300072: People2_36
+    21300074: People2_37
+    21300076: People2_38
+    21300078: People2_39
+    21300080: People2_40
+    21300082: People2_41
+    21300084: People2_42
+    21300086: People2_43
+    21300088: People2_44
+    21300090: People2_45
+    21300092: People2_46
+    21300094: People2_47
+    21300096: guy
+    21300098: guy 2
+    21300100: guy 3
+    21300102: People2_51
+    21300104: People2_52
+    21300106: People2_53
+    21300108: People2_54
+    21300110: People2_55
+    21300112: People2_56
+    21300114: People2_57
+    21300116: People2_58
+    21300118: People2_59
+    21300120: guy 4
+    21300122: guy 5
+    21300124: guy 6
+    21300126: People2_63
+    21300128: People2_64
+    21300130: People2_65
+    21300132: People2_66
+    21300134: People2_67
+    21300136: People2_68
+    21300138: People2_69
+    21300140: People2_70
+    21300142: People2_71
+    21300144: guy 7
+    21300146: guy 8
+    21300148: guy 9
+    21300150: People2_75
+    21300152: People2_76
+    21300154: People2_77
+    21300156: People2_78
+    21300158: People2_79
+    21300160: People2_80
+    21300162: People2_81
+    21300164: People2_82
+    21300166: People2_83
+    21300168: guy 10
+    21300170: guy 11
+    21300172: guy 12
+    21300174: People2_87
+    21300176: People2_88
+    21300178: People2_89
+    21300180: People2_90
+    21300182: People2_91
+    21300184: People2_92
+    21300186: People2_93
+    21300188: People2_94
+    21300190: People2_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: People2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -14, y: 11}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 16}
+    - name: People2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 11}
+        - {x: -15, y: 6}
+        - {x: -15, y: -11}
+        - {x: -12, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -8}
+        - {x: 16, y: -5}
+        - {x: 14, y: 13}
+    - name: People2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -13}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+    - name: People2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -15, y: 5}
+        - {x: -15, y: -15}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 11}
+        - {x: 11, y: 16}
+    - name: People2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -12}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 11}
+        - {x: 13, y: 16}
+    - name: People2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: -10}
+        - {x: -12, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 4}
+    - name: People2_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: 14, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 1}
+    - name: People2_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 15}
+        - {x: -16, y: 2}
+        - {x: -16, y: -13}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: -1}
+        - {x: 14, y: 10}
+    - name: People2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 6}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 6}
+        - {x: 12, y: 16}
+    - name: People2_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 7}
+        - {x: 12, y: 16}
+    - name: People2_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 11}
+        - {x: -16, y: -2}
+        - {x: -16, y: -11}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 16}
+    - name: People2_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 7}
+        - {x: 12, y: 16}
+    - name: People2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -8}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 12}
+        - {x: 7, y: 16}
+    - name: People2_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -11}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -15}
+        - {x: 11, y: -3}
+        - {x: 11, y: 13}
+        - {x: 8, y: 16}
+    - name: People2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -11}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -8}
+        - {x: 11, y: 11}
+        - {x: 7, y: 16}
+    - name: People2_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: 1}
+        - {x: -11, y: -15}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -11}
+        - {x: 15, y: 10}
+        - {x: 10, y: 16}
+    - name: People2_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -5}
+        - {x: 15, y: 8}
+        - {x: 10, y: 16}
+    - name: People2_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -6}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -9}
+        - {x: 15, y: 6}
+        - {x: 10, y: 16}
+    - name: People2_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -4}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -9}
+        - {x: 14, y: 12}
+        - {x: 10, y: 16}
+    - name: People2_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: 14}
+        - {x: -13, y: 11}
+        - {x: -13, y: 2}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -13}
+        - {x: 14, y: -1}
+        - {x: 14, y: 15}
+    - name: People2_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -6}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -9}
+        - {x: 14, y: 12}
+        - {x: 11, y: 16}
+    - name: People2_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 8}
+        - {x: 15, y: 13}
+    - name: People2_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: -9}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 13}
+        - {x: 15, y: 15}
+    - name: People2_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -6}
+        - {x: -11, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 15}
+        - {x: 12, y: 16}
+    - name: People2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -6, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -15}
+        - {x: 13, y: 5}
+        - {x: 13, y: 14}
+    - name: People2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -15}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -7}
+        - {x: 13, y: 13}
+        - {x: 12, y: 16}
+    - name: People2_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -7, y: 16}
+        - {x: -11, y: 14}
+        - {x: -11, y: -16}
+        - {x: 8, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 14}
+    - name: People2_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: -11}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: People2_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -14, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -5}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -15}
+        - {x: 13, y: -4}
+        - {x: 13, y: 13}
+    - name: People2_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: -12}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: People2_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 9}
+        - {x: -14, y: -5}
+        - {x: -12, y: -14}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 16}
+    - name: People2_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -7}
+        - {x: -13, y: -14}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: People2_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 9}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 14}
+        - {x: 10, y: 16}
+    - name: People2_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 13}
+        - {x: -16, y: 9}
+        - {x: -16, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 16}
+    - name: People2_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -16, y: 8}
+        - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 16}
+    - name: People2_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -8}
+        - {x: 13, y: 16}
+    - name: People2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -14}
+        - {x: -12, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 16}
+    - name: People2_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -9}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 14}
+        - {x: 11, y: 16}
+    - name: People2_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -12}
+        - {x: -12, y: -16}
+        - {x: 7, y: -16}
+        - {x: 14, y: -8}
+        - {x: 14, y: 16}
+    - name: People2_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -11}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: People2_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 15}
+        - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 5}
+        - {x: -15, y: -6}
+        - {x: -14, y: -10}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -10}
+        - {x: 16, y: -7}
+        - {x: 16, y: 5}
+    - name: People2_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 15}
+        - {x: -15, y: 10}
+        - {x: -15, y: -11}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: People2_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 11}
+        - {x: 9, y: 16}
+    - name: People2_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -15}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 14, y: 16}
+    - name: People2_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -14, y: 5}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 9}
+        - {x: 15, y: 10}
+        - {x: 11, y: 16}
+    - name: People2_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: People2_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 11}
+        - {x: -15, y: 6}
+        - {x: -15, y: -13}
+        - {x: -9, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 8}
+        - {x: 13, y: 16}
+    - name: People2_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: guy
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 7}
+        - {x: -16, y: -10}
+        - {x: -11, y: -14}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 5}
+        - {x: 12, y: 16}
+    - name: guy 2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -14}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 7}
+        - {x: 15, y: 12}
+        - {x: 11, y: 16}
+        - {x: -12, y: 16}
+        - {x: -16, y: 15}
+    - name: guy 3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 3}
+        - {x: -15, y: -14}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 5}
+        - {x: 10, y: 16}
+    - name: People2_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: People2_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -8, y: 16}
+        - {x: -14, y: 11}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 7}
+        - {x: 14, y: 14}
+    - name: People2_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 14, y: 13}
+    - name: People2_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 7}
+        - {x: -15, y: -14}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 12, y: 16}
+    - name: People2_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 13}
+        - {x: -15, y: 4}
+        - {x: -15, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: People2_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 2}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 15, y: 12}
+        - {x: 10, y: 16}
+    - name: People2_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+    - name: People2_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -12}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: People2_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -11, y: 11}
+        - {x: -14, y: 8}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 8}
+        - {x: 10, y: 16}
+    - name: guy 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -5}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: guy 5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -8}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 12, y: -14}
+        - {x: 12, y: 15}
+        - {x: 11, y: 16}
+    - name: guy 6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -4}
+        - {x: -11, y: -16}
+        - {x: 8, y: -16}
+        - {x: 13, y: -13}
+        - {x: 13, y: 8}
+        - {x: 12, y: 10}
+    - name: People2_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -10}
+        - {x: -8, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 4}
+        - {x: 11, y: 14}
+    - name: People2_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -9}
+        - {x: -8, y: -15}
+        - {x: -7, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 12}
+        - {x: 9, y: 16}
+    - name: People2_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -10}
+        - {x: -9, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 9}
+        - {x: 9, y: 16}
+    - name: People2_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: 1}
+        - {x: -9, y: -15}
+        - {x: -8, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: -3}
+        - {x: 13, y: 12}
+    - name: People2_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -1}
+        - {x: -8, y: -15}
+        - {x: -7, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+    - name: People2_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: 5}
+        - {x: -10, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 15, y: 12}
+    - name: People2_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 10}
+        - {x: 10, y: 16}
+    - name: People2_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -6}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: 8}
+        - {x: 10, y: 16}
+    - name: People2_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -12, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -8}
+        - {x: -14, y: -14}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: -5}
+        - {x: 15, y: 3}
+    - name: guy 7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 15}
+        - {x: 11, y: 16}
+    - name: guy 8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 14}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: 0}
+        - {x: 13, y: 12}
+        - {x: 8, y: 16}
+    - name: guy 9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -14}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 15}
+        - {x: 10, y: 16}
+    - name: People2_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 15}
+        - {x: -14, y: 7}
+        - {x: -14, y: -8}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 15}
+        - {x: 11, y: 16}
+    - name: People2_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -14}
+        - {x: 13, y: 16}
+    - name: People2_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 15}
+        - {x: -14, y: 12}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -15}
+        - {x: 13, y: 16}
+    - name: People2_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -11, y: 15}
+        - {x: -15, y: 14}
+        - {x: -15, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -15}
+        - {x: 13, y: 3}
+        - {x: 13, y: 14}
+    - name: People2_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: -13}
+        - {x: -12, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -15}
+        - {x: 13, y: -1}
+        - {x: 13, y: 13}
+    - name: People2_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -2}
+        - {x: 13, y: 14}
+        - {x: 10, y: 16}
+    - name: People2_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: People2_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -12}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -2}
+        - {x: 14, y: 16}
+    - name: People2_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 13}
+        - {x: -16, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -8}
+        - {x: 14, y: 10}
+        - {x: 13, y: 14}
+    - name: guy 10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 13, y: 16}
+    - name: guy 11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -12}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 9}
+        - {x: 15, y: 11}
+        - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 15}
+    - name: guy 12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 7}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 10}
+    - name: People2_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 7}
+        - {x: -15, y: 4}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 14}
+    - name: People2_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 14}
+        - {x: -14, y: 7}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+    - name: People2_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 7}
+        - {x: -15, y: 4}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 14}
+    - name: People2_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -14}
+        - {x: -14, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 2}
+        - {x: 14, y: 12}
+        - {x: 11, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 15}
+    - name: People2_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 15}
+        - {x: 13, y: 16}
+    - name: People2_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: -2}
+        - {x: 15, y: 12}
+    - name: People2_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -14, y: 4}
+        - {x: -14, y: -15}
+        - {x: -13, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 14}
+        - {x: 11, y: 16}
+    - name: People2_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -15, y: 8}
+        - {x: -15, y: -11}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 6}
+        - {x: 10, y: 16}
+    - name: People2_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -15}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 8}
+        - {x: 13, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

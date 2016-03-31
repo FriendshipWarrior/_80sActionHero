@@ -13,7 +13,6 @@ public class Inventory : MonoBehaviour {
     public List<GameObject> slots = new List<GameObject>();
     public static bool invExists;
 
-
     private int slotAmount;
 
     void Start()
@@ -22,28 +21,27 @@ public class Inventory : MonoBehaviour {
         {
             invExists = true;
             DontDestroyOnLoad(transform.gameObject);
+            database = GetComponent<ItemDatabase>();
+            slotAmount = 24;
+            inventoryPanel = GameObject.Find("Inventory Panel");
+            slotPanel = inventoryPanel.transform.FindChild("Slot Panel").gameObject;
+            for (int i = 0; i < slotAmount; i++)
+            {
+                items.Add(new Item());
+                slots.Add(Instantiate(inventorySlot));
+                slots[i].GetComponent<Slot>().id = i;
+                slots[i].transform.SetParent(slotPanel.transform);
+            }
+            AddItem(1);
+            AddItem(1);
+            AddItem(1);
+            AddItem(1);
+            AddItem(1);
         }
         else
         {
             Destroy(gameObject);
         }
-
-        database = GetComponent<ItemDatabase>();
-        slotAmount = 24;
-        inventoryPanel = GameObject.Find("Inventory Panel");
-        slotPanel = inventoryPanel.transform.FindChild("Slot Panel").gameObject;
-        for (int i = 0; i < slotAmount; i++)
-        {
-            items.Add(new Item());
-            slots.Add(Instantiate(inventorySlot));
-            slots[i].GetComponent<Slot>().id = i;
-            slots[i].transform.SetParent(slotPanel.transform);
-        }
-        AddItem(1);
-        AddItem(1);
-        AddItem(1);
-        AddItem(1);
-        AddItem(1);
     }
 
     public bool AddItem(int id)

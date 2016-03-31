@@ -6,7 +6,7 @@ public class Empress : MonoBehaviour {
     private GameObject weapon;
     private GameObject hero;
     private Inventory inv;
-    private bool empressTalk;
+    public static bool empressTalk;
 
     // Use this for initialization
     void Start ()
@@ -26,9 +26,13 @@ public class Empress : MonoBehaviour {
     {
         if (other.GetComponent<HeroMovement>() == null)
             return;
-        inv.RemoveItem(0);
-        inv.AddItem(0);
-        weapon.SetActive(true);
-        Destroy(this);
+        if (!empressTalk)
+        {
+           // inv.RemoveItem(0);
+            inv.AddItem(0);
+            weapon.SetActive(true);
+            // Destroy(this);
+            empressTalk = true;
+        }
     }
 }

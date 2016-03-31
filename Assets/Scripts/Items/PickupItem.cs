@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PickupItem : MonoBehaviour
 {
-
     public int itemID;
 
     private Inventory inv;
@@ -15,10 +14,12 @@ public class PickupItem : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<HeroMovement>() == null)
+        {
             return;
+        }
 
         inv.AddItem(itemID);
-        Destroy(gameObject);
+        Destroy(gameObject);     
     }
     /*
     public Inventory inv;
