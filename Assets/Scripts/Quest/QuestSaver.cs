@@ -82,7 +82,7 @@ public class QuestSaver : MonoBehaviour {
 		} else {
 			//else we're on a platform that can save to device
 			BinaryFormatter bf = new BinaryFormatter();
-			FileStream file = File.Create(Application.persistentDataPath + "/" + GameName + "." + GameAbbreviation);
+			//FileStream file = File.Create(Application.persistentDataPath + "/" + GameName + "." + GameAbbreviation);
 		
 			PlayerData data = new PlayerData();
 			data.OverallQuestID = QuestOverallID;
@@ -93,8 +93,8 @@ public class QuestSaver : MonoBehaviour {
 			data.CObjective = CObjective;
 			data.AmountOfO = AmountOfO;
 			
-			bf.Serialize(file, data);
-			file.Close();
+			//bf.Serialize(file, data);
+			//file.Close();
 		}
 	}
 	

@@ -63,7 +63,7 @@ public class QuestGiver : MonoBehaviour {
 
 	void Update(){
 		//Setting the MouseLock 'QuestWindowOpen' depending if it is or not.
-        /*
+        
 		_MouseLock.QuestWindowOpen = ShowGUI;
 
 		if (text) {
@@ -75,7 +75,7 @@ public class QuestGiver : MonoBehaviour {
 				text.text = "!";
 			}
 		}
-        */
+        
 		//Checking for JoystickButtonMenu
 		if (mainMenu != null) {
 			if (mainMenu.enabled) {

@@ -47,8 +47,13 @@ public class EasyQuestEditor : Editor {
 		GUILayout.Label("Player Tag: ", GUILayout.Width(85));
 		EQ.PlayerT = EditorGUILayout.TextField (EQ.PlayerT, GUILayout.Width(125));
 		GUILayout.EndHorizontal ();
-		//Add/Remove Objectives
-		GUILayout.BeginHorizontal();
+        //Exp
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Exp to Give: ", GUILayout.Width(85));
+        EQ.expToGive = int.Parse(GUILayout.TextField(EQ.expToGive.ToString(), GUILayout.Width(125)));
+        GUILayout.EndHorizontal();
+        //Add/Remove Objectives
+        GUILayout.BeginHorizontal();
 		if (GUILayout.Button ("Add Objective")) {
 			EQ.AmountOfO += 1;
 		}

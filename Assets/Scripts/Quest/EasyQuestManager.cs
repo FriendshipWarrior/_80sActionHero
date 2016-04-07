@@ -17,7 +17,7 @@ public class EasyQuestManager : MonoBehaviour {
 	//If the quest need to go in order by there ID
 	public bool QuestProgesssion = true;
 
-	void Awake(){
+    void Awake(){
 		if(control == null){
 			DontDestroyOnLoad(gameObject);
 			control = this.gameObject;
@@ -73,30 +73,35 @@ public class EasyQuestManager : MonoBehaviour {
 	}
 
 	//Once a quest finishes, it runs this.
-	public void QuestFinish(int OverallID){
+	public void QuestFinish(int OverallID)
+    {
         //Checking what index the quest is at, since we can't keep track of it normally in a List :(
-        //Debug.Log(CurrentQuest);
         int temp = -1;
-		for(int q = 0; q < QuestSaver.qSaver.QuestOverallID.Count; q++){
-			if(QuestSaver.qSaver.QuestOverallID[q] == OverallID){
+		for(int q = 0; q < QuestSaver.qSaver.QuestOverallID.Count; q++)
+        {
+			if(QuestSaver.qSaver.QuestOverallID[q] == OverallID)
+            {
 				temp = q;
                 break;
 			}
 		}
-		if(temp == -1){
+		if(temp == -1)
+        {
 			return;
 		}
-		//Finish
-		//Once a quest is finished, add it to the finished quest list and remove it from the current quest list.
+        //Finish
+        //Once a quest is finished, add it to the finished quest list and remove it from the current quest list.
 		QuestSaver.qSaver.FinishedQuest [temp] = true;
 		QuestSaver.qSaver.CurrentQuest [temp] = false;
         CurrentQuest = null;
-		if (OnQuestFinish != null) {
+		if (OnQuestFinish != null)
+        {
 			OnQuestFinish ();
 		}
 		CheckList ();
 		//Save.
-		for (int i = 0; i < EQList.Count; i++) {
+		for (int i = 0; i < EQList.Count; i++)
+        {
 			UpdateQuest (EQList[i].OverallID);
 		}
 	}

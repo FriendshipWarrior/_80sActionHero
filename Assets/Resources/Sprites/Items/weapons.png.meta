@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bb668ae4c699ee445b61c44de3c5df2a
-timeCreated: 1458776404
+timeCreated: 1459642130
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -13,7 +13,7 @@ TextureImporter:
     21300012: weapons_6
     21300014: weapons_7
     21300016: weapons_8
-    21300018: weapons_9
+    21300018: axe
     21300020: weapons_10
     21300022: weapons_11
   serializedVersion: 2
@@ -103,7 +103,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: weapons_4
@@ -114,7 +114,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: weapons_5
@@ -158,10 +158,10 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: weapons_9
+    - name: axe
       rect:
         serializedVersion: 2
         x: 1
