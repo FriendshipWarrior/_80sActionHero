@@ -7,36 +7,44 @@ public class CollectionItem : MonoBehaviour {
 	public bool DestroyObjAfter;
     public int itemID;
 
-    private List<EasyQuest> EQ = new List<EasyQuest>();
-    private EasyQuestManager Manager;
+    private List<Quest> Q = new List<Quest>();
+    private QuestManager Manager;
     private Inventory inv;
 
-    void Start(){
+    void Start()
+    {
 		//Get our references
-		Manager = (EasyQuestManager)FindObjectOfType (typeof(EasyQuestManager));
+		Manager = (QuestManager)FindObjectOfType (typeof(QuestManager));
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
     }
 
 	//Updates any quest that needs the item 
-	void OnMouseDown (){
+	void OnMouseDown ()
+    {
 		//Get all the quest we have
-		EQ = Manager.EQList;
+		Q = Manager.QList;
 		//Iterate through them
-		for(int i = 0; i < EQ.Count; i++){
-			//Iterate through there objectives
-			for(int s = 0; s < EQ[i].AmountOfO; s++)
+		for(int i = 0; i < Q.Count; i++)
+        {
+			//Iterate through the objectives
+			for(int s = 0; s < Q[i].AmountOfO; s++)
 				//Check if the quest is the right one
-				if(EQ[i].CurrentQuest && EQ[i].Objs[s].qType == QuestType.Collect || EQ[i].CurrentQuest && EQ[i].Objs[s].qType == QuestType.Defeat){
+				if(Q[i].CurrentQuest && Q[i].Objs[s].qType == QuestType.Collect || Q[i].CurrentQuest && Q[i].Objs[s].qType == QuestType.Defeat)
+                {
 					//Make sure the objective isn't completed	
-					if(EQ[i].Objs[s].Amount < EQ[i].Objs[s].AmountNeeded){
+					if(Q[i].Objs[s].Amount < Q[i].Objs[s].AmountNeeded)
+                    {
 						//Check to see if it's the right object
-						if(gameObject.name == EQ[i].Objs[s].Name){
+						if(gameObject.name == Q[i].Objs[s].Name)
+                        {
 							//Make sure we're in the right world for the quest
-							if(Application.loadedLevelName == EQ[i].Objs[s].World || EQ[i].Objs[s].World == ""){
+							if(Application.loadedLevelName == Q[i].Objs[s].World || Q[i].Objs[s].World == "")
+                            {
 								//Add to the amount
-								EQ[i].Objs[s].Amount += 1;
+								Q[i].Objs[s].Amount += 1;
                                 inv.AddItem(itemID);
-								if(DestroyObjAfter){
+								if(DestroyObjAfter)
+                                {
 									Destroy(gameObject);
 								}
 							}

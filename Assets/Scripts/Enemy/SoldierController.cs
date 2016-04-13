@@ -21,7 +21,8 @@ public class SoldierController : MonoBehaviour {
     void Start ()
     {
         rbody = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();    
+        hero = GameObject.FindGameObjectWithTag("Hero");
 
         //timeBetweenMoveCounter = timeBetweenMove;
         //timeToMoveCounter = timeToMove;

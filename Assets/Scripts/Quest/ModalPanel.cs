@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections;
 
-//Made so that the player doesn't need references himself, and so that we can just set them before the game starts.
+//Made so that the hero doesn't need references himself, and so that we can just set them before the game starts.
 //Useful for networking and such.
 public class ModalPanel : MonoBehaviour {
 	//Gets the references needed for the quest dialogue.

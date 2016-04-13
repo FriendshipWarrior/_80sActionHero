@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour {
     public static bool UIExists;
 
     private HeroStats heroStats;
-    private EasyQuestManager manager;
+    private QuestManager manager;
     private bool showCompleted = false;
 
     // Use this for initialization
@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour {
         }
 
         heroStats = GetComponent<HeroStats>();
-        manager = GameObject.FindGameObjectWithTag("EQManager").GetComponent<EasyQuestManager>();
+        manager = GameObject.FindGameObjectWithTag("QManager").GetComponent<QuestManager>();
     }
 
     // Update is called once per frame
@@ -46,17 +46,17 @@ public class UIManager : MonoBehaviour {
 
             if (manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].qType == QuestType.GoTo)
             {
-                QuestObj.text = manager.CurrentQuest.Description;
+                QuestObj.text = manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].sDescript;
             }
             if (manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].qType == QuestType.Collect)
             {
-                QuestObj.text = manager.CurrentQuest.Description + "\n" + "\n" +
+                QuestObj.text = manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].sDescript + "\n" + "\n" +
                  + manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].Amount + "/" 
                             + manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].AmountNeeded;
             }
             if (manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].qType == QuestType.Defeat)
             {
-                QuestObj.text = manager.CurrentQuest.Description;
+                QuestObj.text = manager.CurrentQuest.Objs[manager.CurrentQuest.CObjective].sDescript;
             }
         }
         if (manager.CurrentQuest == null)
@@ -64,5 +64,10 @@ public class UIManager : MonoBehaviour {
             QuestDescrip.text = "";
             QuestObj.text = "";
         }
+    }
+
+    public void OnClickYes()
+    {
+
     }
 }

@@ -2,46 +2,65 @@
 using System.Collections;
 
 public class BossController : MonoBehaviour {
-    public Transform target;
-    public float speed = 1;
-    public float followDistance = 10;
-    public float attackDistance = 2;
-    public Animator anim;
+    public float moveSpeed;
+    public float followDistance;
+    public float attakDistance;
+    public float waitToReload;
 
+    private Rigidbody2D rbody;
     private GameObject hero;
+    public Transform target;
+    private Animator anim;
+    private Vector3 moveDirection;
+    private float timeBetweenMoveCounter;
+    private float timeToMoveCounter;
     private float range;
+    private bool reloading;
+    private bool moving;
 
     // Use this for initialization
     void Start()
     {
-        anim = this.GetComponent<Animator>();
+        rbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        target = GameObject.FindGameObjectWithTag("Hero").transform;
         hero = GameObject.FindGameObjectWithTag("Hero");
     }
     // Update is called once per frame
     void Update()
     {
-        if (!anim.GetBool("is_attacking"))
+        rbody.velocity = moveDirection;
+        range = Vector2.Distance(transform.position, target.transform.position);
+
+        if (range <= attakDistance)
         {
-            if (hero.transform.position.x > transform.position.x)
-                transform.rotation = Quaternion.Euler(transform.rotation.x, 180, transform.rotation.z);
-            else
-                transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
-        }
-        range = Vector2.Distance(transform.position, hero.transform.position);
-        if (range <= attackDistance)
-        {
+            rbody.velocity = Vector3.zero;
             anim.SetBool("is_attacking", true);
-            anim.SetBool("is_walking", false);
+            anim.SetBool("isWalking", false);
         }
         else if (range <= followDistance)
         {
             anim.SetBool("is_attacking", false);
-            anim.SetBool("is_walking", true);
-            transform.position += (hero.transform.position - transform.position).normalized * speed * Time.deltaTime;
+            moveDirection = new Vector3((target.transform.position.x - transform.position.x) * moveSpeed, (target.transform.position.y - transform.position.y) * moveSpeed, 0f);
+            if (moveDirection != Vector3.zero)
+            {
+                anim.SetBool("isWalking", true);
+                anim.SetFloat("input_x", moveDirection.x);
+                anim.SetFloat("input_y", moveDirection.y);
+            }
         }
         else {
             anim.SetBool("is_attacking", false);
-            anim.SetBool("is_walking", false);
+            anim.SetBool("isWalking", false);
+        }
+        if (reloading)
+        {
+            waitToReload -= Time.deltaTime;
+            if (waitToReload < 0)
+            {
+                Application.LoadLevel(Application.loadedLevel);
+                hero.SetActive(true);
+            }
         }
     }
 }
