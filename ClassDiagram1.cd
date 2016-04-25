@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraFollow">
+    <Position X="11" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiEAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Camera\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHealthManager">
+    <Position X="29.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGAAgAIAAAAQAAAEAAAAAAAAABAQAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\EnemyHealthManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatingNumbers">
+    <Position X="33" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAECAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\FloatingNumbers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeroHealthManager">
+    <Position X="19" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAICAAAAIAAAAAAAEAAAAAAAACAQgAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Combat\HeroHealthManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HurtEnemy">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAACAAAAAAAAAAgAAAAEQAAAAAAAAgBAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Combat\HurtEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HurtHero">
+    <Position X="31.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAgAAAAAQAAAAAAAAgAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Combat\HurtHero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivateText">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEACAACAgAAAAAAAAAAAgAECwAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogue\ActivateText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextBoxManager">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIwAAAGAIAQACAQAABBAAAAiEAAAUAAAABAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogue\TextBoxManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextImporter">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Dialogue\TextImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Empress">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAGAAAAAAAAAAAAAACEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Empress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossController">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASgAAAIEGAAAAAAIAIAAACAIBACAAAQAQAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\BossController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheapBossFight">
+    <Position X="27.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASgAAAIEGAAAAAAIAIAAACAIBACAAAQAQAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\CheapBossFight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeroMovement">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEiAgAAAIAAIAAAAAAAgAAAAEAQEAAEAACAA=</HashCode>
+      <FileName>Assets\Scripts\Hero\HeroMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterPanel">
+    <Position X="12.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Items\CharacterPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipmentSlot">
+    <Position X="19.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Items\EquipmentSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABQAAggAYAIgAAAAAAEAA0AIADAAAA=</HashCode>
+      <FileName>Assets\Scripts\Items\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemData" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAGAIAAAAAARAEAAAAAAggCAAAAACAQAAACA=</HashCode>
+      <FileName>Assets\Scripts\Items\ItemData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ItemDatabase">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAAAAAAAAAAAAAAACABAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Items\ItemDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAggEAAAAAAAAAAAAAAQAARAQAAAiQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Items\ItemDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickupItem">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACCAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Items\PickupItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slot" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Items\Slot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToolTip">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACBAAABAAAQAAAAAAAAAAAAAAAAQAAAABCA=</HashCode>
+      <FileName>Assets\Scripts\Items\ToolTip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelSelector">
+    <Position X="19.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGAAAAAAAAAAABAABAgAAAABAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\LevelSelector\LevelSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Princess">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAABAIQAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Princess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BringToFront">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\BringToFront.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectionItem">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACCAAAAAAIAAAAAAAAAABAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\CollectionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModalPanel">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAIAEAAAAAAAAABAAECAAAQAAAEACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\ModalPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseLockCheck">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\MouseLockCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quest">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIIAGAggQoQYAAAQCIEAAQAAgAIAAAAUEAACEg=</HashCode>
+      <FileName>Assets\Scripts\Quest\Quest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectiveT">
+    <Position X="18" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABAAAAIAAAAAAASAAAIAAAAGQAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\Quest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestEditor">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAAAACAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestGiver">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAQgAgAGwgAAAFIAQAAAAGEACAAgBAJACAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestGiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="QuestManager.OnQGet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Quest\QuestManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="QuestManager.OnQFinish" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Quest\QuestManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="QuestManager.OnQProgressed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Quest\QuestManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="QuestManager.OnLLoaded" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Quest\QuestManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAkAQJRAAgAAoBAAAAAAAAQACAAAAABIAAEA=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestSaver">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAQAQAQAAVCAAAIAAAAAIEAAgAAAAAEk=</HashCode>
+      <FileName>Assets\Scripts\Quest\QuestSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeroStartPoint">
+    <Position X="22.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAGAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Transitions\HeroStartPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadNewArea">
+    <Position X="7.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAEAAEAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Transitions\LoadNewArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenFader">
+    <Position X="9.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAEAUACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Transitions\ScreenFader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Warp">
+    <Position X="5.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGgAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Transitions\Warp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyOverTime">
+    <Position X="14.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\DestroyOverTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventSystem">
+    <Position X="2.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\EventSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeroStats">
+    <Position X="4" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABCIAACAAAQAAgAAAAASBAAAAAAAgBQAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\HeroStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGQAgACAAAAAAAAEQAQAACAAAABAACAQAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tiled2Unity.ImportBehaviour">
+    <Position X="16.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAowAAAAgAAAAAAABAAAAAAAAABAAAAAACAA=</HashCode>
+      <FileName>Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -13,7 +13,12 @@ public class ItemDatabase : MonoBehaviour {
         itemData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Items.json"));
         ConstructItemDatabase();
 
-        //Debug.Log(FetchItemByID(0).Description);
+        /*
+        for(int i = 0; i < database.Count; i++)
+        {
+            Debug.Log(database[i].Description);
+        }
+        */
     }
 
     public Item FetchItemByID(int id)

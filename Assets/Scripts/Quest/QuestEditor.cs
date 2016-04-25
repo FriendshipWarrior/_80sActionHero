@@ -4,8 +4,8 @@ using System.Collections;
 
 [CustomEditor(typeof(Quest))]
 public class QuestEditor : Editor {
-	
-	public GameObject hero;
+
+    public GameObject hero;
 	public Quest Q;
 	
 	public override void OnInspectorGUI(){
@@ -15,8 +15,8 @@ public class QuestEditor : Editor {
 		//Quest Name
 		GUILayout.BeginHorizontal ();
 		GUILayout.Label("Quest Name: ", GUILayout.Width(85));
-		Q.QuestName = EditorGUILayout.TextField (Q.QuestName, GUILayout.Width(225));
-		GUILayout.EndHorizontal ();
+        Q.QuestName = EditorGUILayout.TextField(Q.QuestName, GUILayout.Width(225));
+        GUILayout.EndHorizontal ();
 		//Quest ID
 		GUILayout.BeginHorizontal ();
 		GUILayout.Label("Overall ID: ", GUILayout.Width(85));

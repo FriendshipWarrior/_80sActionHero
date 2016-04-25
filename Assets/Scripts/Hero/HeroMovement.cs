@@ -43,6 +43,7 @@ public class HeroMovement : MonoBehaviour {
 
             if (!canMove)
             {
+                anim.SetBool("is_walking", false);
                 return;
             }
 

@@ -18,6 +18,9 @@ public class QuestManager : MonoBehaviour
 	//If the quest need to go in order by there ID
 	public bool QuestProgesssion = true;
 
+    //QuestDatabase database;
+    //public List<Quests> quests = new List<Quests>();
+
     void Awake()
     {
 		if(control == null)
@@ -30,8 +33,10 @@ public class QuestManager : MonoBehaviour
 			Destroy(gameObject);
 		}
 
-		//Gets all quest under the manager
-		QList.AddRange (GetComponentsInChildren<Quest>());
+        //database = GetComponent<QuestDatabase>();
+
+        //Gets all quest under the manager
+        QList.AddRange (GetComponentsInChildren<Quest>());
         for(int i = 0; i < QList.Count; i++)
         {
             Debug.Log(QList[i].QuestName);

@@ -29,6 +29,7 @@ public class Empress : MonoBehaviour {
         if (!empressTalk)
         {
             inv.AddItem(0);
+            inv.AddItem(2000);
             weapon.SetActive(true);
             empressTalk = true;
         }

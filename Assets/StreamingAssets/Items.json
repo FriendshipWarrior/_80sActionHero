@@ -96,5 +96,19 @@
 	"consumable" : false,
 	"rarity":5,
 	"slug": "gem"
+  },
+    {
+    "id": 2000,
+    "title": "Auryn",
+	"type": "Key",
+	"stats": {
+		"power":0,
+		"defense":0
+	},
+	"description":"An Ouroboros talisman.",
+	"stackable": false,
+	"consumable" : false,
+	"rarity":5,
+	"slug": "auryn"
   }
 ]

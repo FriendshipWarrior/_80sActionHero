@@ -6,6 +6,10 @@ public class Princess : MonoBehaviour {
     private Inventory inv;
     private QuestGiver qg;
     private QuestGiver king;
+    private MusicSwitch musicSwitch;
+
+    public GameObject sceneMusic;
+    public GameObject bossMusic;
     public static bool princessTalk;
     // Use this for initialization
     void Start ()
@@ -13,6 +17,7 @@ public class Princess : MonoBehaviour {
         king = GameObject.FindGameObjectWithTag("King").GetComponent<QuestGiver>();
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
         qg = GetComponent<QuestGiver>();
+        musicSwitch = GameObject.FindObjectOfType<MusicSwitch>();
     }
 	
 	// Update is called once per frame
@@ -29,6 +34,9 @@ public class Princess : MonoBehaviour {
             king.enabled = false;
             qg.enabled = true;
             princessTalk = true;
+            bossMusic.SetActive(false);
+            sceneMusic.SetActive(true);
+            Destroy(musicSwitch);
         }
     }
 }
